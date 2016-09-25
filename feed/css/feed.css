@@ -1,0 +1,6 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+*{font-family:Arial,Tahoma,sans-serif;font-size:16px;text-align:justify}
+.container,.feed{width: 400px;margin:20px auto;padding: 15px;border:3px solid;border-radius:15px}
+.block{background: #fff;border-radius: 5px}
+textarea{resize: none}
+

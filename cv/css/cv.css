@@ -1,0 +1,27 @@
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+*{font-family:Arial,Tahoma,sans-serif;font-size:16px;text-align:justify}
+p{padding: 0 30px}
+em{font-size: 12px;color: #555}
+dl{margin:10px 20px 10px 30px}
+dt{float: left;width: 40%}
+dd{font-size: 18px;overflow: hidden;text-align: left}
+.clear{clear:both}
+div{overflow: hidden}
+img{vertical-align: middle}
+ul{padding: 0;color: #555}
+#contact ul{margin-top: 50px}
+li{padding-bottom:10px}
+li span{padding: 10px}
+.fa{color: cadetblue}
+h1,h2,h3,h4{font-family:"SegoeUI",Arial,Tahoma,sans-serif;text-transform:uppercase;font-weight: lighter;;color:cadetblue}
+h1{font-size:30px;background: cadetblue;text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);box-shadow: 0 2px 4px rgba(0, 0, 0, 0.45) inset;color:#fff;padding: 10px}
+h2{font-size:24px;border-bottom:3px solid;margin:30px 0 0}
+h3{margin:30px 0 0;font-weight:bold}
+.container{width: 800px;margin:20px auto;box-shadow:0 1px 4px rgba(0, 0, 0, 0.45), 0 0 30px rgba(0, 0, 0, 0.4) inset;padding: 15px;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px}
+.block{background: #fff;border-radius: 5px;box-shadow:0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.3) inset}
+.block.info{padding:0 0 30px 50px}
+.block.info > ul{margin-left:40px}
+.block.info li{padding:0;font-size:14px}
+#foto{position: absolute;background: #fff;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);height: 270px;margin:0 0 0 60px;padding: 20px;transform: rotate(5deg)}
+#foto p{text-align: center}
+#contact{float: right;width:50%;height: 340px}
