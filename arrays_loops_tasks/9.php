@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:44
- */
+$arr = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+$str = ' ';
+foreach ($arr as $val)	{
+    $str .= $val;}
+echo $str;

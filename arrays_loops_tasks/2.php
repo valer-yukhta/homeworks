@@ -1,7 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:30
- */
+$arr = array('html', 'css', 'php', 'js', 'jq');
+foreach ($arr as $val) {
+    echo $val . ' <br>';
+}

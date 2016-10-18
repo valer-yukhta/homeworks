@@ -1,7 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:48
- */
+// while
+$i = 0;
+while ($i <= 100){
+    echo $i.'<br>';
+    $i += 2;}
+// for
+for ($i = 1; $i <= 100; $i += 2){
+    echo $i.'<br>';}

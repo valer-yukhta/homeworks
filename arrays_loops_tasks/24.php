@@ -1,7 +1,12 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:57
- */
+$number = 12345;
+if(!is_numeric($number))
+    exit ("Введите число! - $number");
+else {
+    $str = (string)$number;
+    $result = 0;
+    for($i = 0; $i < strlen($str); $i++){
+        $result += $str[$i];
+    }
+}
+echo 'Сума цифер чисел = '.$result;

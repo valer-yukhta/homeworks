@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:40
- */
+$arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'голубой');
+
+  foreach ($arr as $key => $val){
+      $en [ ] = $key;
+      $ru [ ]= $val;
+  }

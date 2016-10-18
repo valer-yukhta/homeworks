@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:51
- */
+$arr = array(4, 2, 5, 19, 13, 0, 10);
+$e = [2,3,4];
+foreach($arr as $val){
+    if(in_array($val, $e))
+        exit("Есть!");
+}
+echo "Нет!";

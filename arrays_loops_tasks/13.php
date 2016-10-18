@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:49
- */
+// while
+$n = 1000;
+$num = 0;
+while ($n > 50){
+    $num++;
+    $n /= 2;
+}
+	echo $num.'<br>'; //кол-во итераций
+	echo $n; //число, которое получилось
+// for
+for ($n = 1000, $num = 0; $n > 50; $n /= 2, $num++);
+	echo $num.'<br>'; //кол-во итераций
+	echo $n; //число, которое получилось

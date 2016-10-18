@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:52
- */
+$arr=array(4, 2, 5, 19, 13, 0, 10);
+$count=0;
+foreach($arr as $val){
+    $count++;
+}
+echo $count;

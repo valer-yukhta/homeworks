@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:31
- */
+$arr = array(1, 20, 15, 17, 24, 35);
+$result = 0;
+foreach ($arr as $val) {
+    $result += $val;
+}

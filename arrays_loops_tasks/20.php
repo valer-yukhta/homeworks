@@ -1,7 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:55
- */
+$day = "Sunday";
+$week = array("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
+Foreach ($week as $val){
+    if ($val == $day){
+        echo "<em>$val</em><br>";
+    }else{
+        echo $val . "<br>";}
+}

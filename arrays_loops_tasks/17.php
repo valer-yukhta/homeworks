@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:53
- */
+$arr=array(1, 2, 3, 4, 5, 6, 7, 8, 9);
+foreach($arr as $val){
+    if ($val == 9){
+        echo $val;
+    }else{
+        echo $val . ", <br>";
+    }}

@@ -1,7 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ALEX
- * Date: 18.10.2016
- * Time: 22:56
- */
+for($i = 1; $i <= 9; $i++){
+    for($j = 1; $j <= $i; $j++){
+        echo $i;}
+    echo "<br/>";}
